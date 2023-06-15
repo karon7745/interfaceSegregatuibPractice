@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfacePractice
 {
-    public class Bird : IAnimal
+    public class Bird : Ieat,Isleep,Ifly
     {
         public void eat()
         {
@@ -21,11 +21,6 @@ namespace InterfacePractice
         public void fly()
         {
             // 飛ぶ処理
-        }
-
-        public void swim()
-        {
-            // 泳ぐ処理
         }
     }
 }

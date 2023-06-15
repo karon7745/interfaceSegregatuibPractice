@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace InterfacePractice
 {
-    public class Human : IAnimal
+    public class Human : Ieat,Isleep,Iswim
     {
         public void eat()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void fly()
         {
             throw new NotImplementedException();
         }
